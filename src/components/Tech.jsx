@@ -10,7 +10,7 @@ import { styles } from "../styles";
 
 const Tech = () => {
   return (
-    <>
+    <div className="overflow-hidden">
       <motion.div variants={textVariant()}>
         <p className={` ${styles.sectionSubText} text-primary animate-bounce`}>
           03. What I know!
@@ -37,7 +37,7 @@ const Tech = () => {
           );
         })}
       </div>
-    </>
+    </div>
   );
 }
 
