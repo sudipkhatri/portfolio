@@ -58,11 +58,11 @@ const Contact = () => {
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={`xl:mt-12 flex flex-col sm:flex-row sm:gap-10 overflow-hidden`}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-[0.75] bg-white p-8 rounded-2xl"
+        className="sm:flex-[0.75] bg-white p-8 rounded-2xl"
       >
         <p className={`${styles.sectionSubText} text-primary animate-bounce`}>
           06. Get in touch
@@ -132,7 +132,7 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-auto justify-center items-center md:h-[550px] h-[350px]"
+        className="xl:flex-1 xl:h-auto hidden sm:flex justify-center items-center md:h-[550px] h-[350px]"
       >
         <div className="w-full h-full flex justify-center items-center gap-10 pt-8">
           <div className="w-[100px] h-[100px] flex justify-center items-center rounded-full border border-red-400 bg-transparent animate-ping">
@@ -149,7 +149,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="w-[100px] h-[100px] flex justify-center items-center rounded-full border border-red-400 bg-transparent animate-ping">
+          <div className="w-[100px] h-[100px] hidden md:flex justify-center items-center rounded-full border border-red-400 bg-transparent animate-ping">
             <div className="w-3/4 h-3/4 flex justify-center items-center rounded-full border border-red-400 bg-transparent animate-pulse">
               <div className="w-2/4 h-2/4 rounded-full flex justify-center items-center border border-red-400 bg-transparent animate-pulse">
                 <div className="w-1/4 h-1/4 rounded-full border border-red-400 bg-transparent animate-pulse"></div>

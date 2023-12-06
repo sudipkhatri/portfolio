@@ -1,11 +1,11 @@
 import React from 'react';
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { fadeIn, textVariant } from "../utils/motion";
+import { textVariant } from "../utils/motion";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto bg-black">
+    <section className="relative w-full h-[90vh] md:h-screen mx-auto bg-black">
       <div
         className={`${styles.paddingX} 
        container mx-auto h-full flex flex-row items-center justify-start gap-5`}
@@ -34,10 +34,9 @@ const Hero = () => {
           </motion.div>
         </div>
       </div>
-      {/* <ComputersCanvas /> */}
 
       <div
-        className="absolute xs:bottom-10 
+        className="absolute bottom-10
       bottom-32 w-full flex justify-center items-center"
       >
         <a href="#about">

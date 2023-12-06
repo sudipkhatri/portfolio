@@ -43,7 +43,7 @@ const ProjectCard = ({index, name, image, source_code_link}) =>{
 return (
   <Tilt className="w-[90%] cursor-pointer">
     <motion.div
-      variants={fadeIn("left", "spring", index * 0.45, index * 0.75)}
+      variants={fadeIn("left", "spring", index * 0.15, index * 0.75)}
       className="w-full border border-teal-300 p-[1px] rounded-[20px] bg-white shadow-card"
       onClick={() => window.open(source_code_link, "_blank")}
     >
