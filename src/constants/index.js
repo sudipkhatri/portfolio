@@ -119,16 +119,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Service desk and field support",
+    title: "Technical Support Engineer",
     company_name: "Tafe NSW",
     icon: tafe,
     iconBg: "#383E56",
     date: "Jan 2022 - Jun 2023",
     points: [
-      "Imaging PCs and laptops.",
-      "Level 1 and level 2 support",
-      "Customer service and support",
-      "Testing and debugging problems related to a computer network and hardware",
+      "Provided frontend development support",
+      "Resolving technical issues to enhance web application performance.",
+      "Customer service and support.",
+      "Testing and debugging problems related to a network and applications.",
     ],
   },
   {
@@ -206,9 +206,61 @@ const projects = [
         color: "text-sky-500",
       },
     ],
-    image: niyunetworks,
+    image:
+      "https://res.cloudinary.com/ddtzqpngv/image/upload/v1704159662/portfolio/kr2klrfwvju9ifsrf7xu.png",
     source_code_link: "https://niyunetworks.com",
-    icon: webs,
+  },
+  {
+    name: "DigitalTechFlux",
+    description:
+      "A complete fullstack app for web development and digital marketing agency. Still in development phase.",
+    tags: [
+      {
+        name: "react",
+        color: "text-teal-500",
+      },
+      {
+        name: "Node",
+        color: "text-indigo-600",
+      },
+      {
+        name: "MongoDB",
+        color: "text-pink-500",
+      },
+      {
+        name: "CI/CD",
+        color: "text-sky-500",
+      },
+    ],
+    image:
+      "https://res.cloudinary.com/ddtzqpngv/image/upload/v1704161513/portfolio/fazvgratww9sgnouga4e.png",
+    source_code_link: "https://dev.digitaltechflux.com",
+  },
+  {
+    name: "Yetitech",
+    description:
+      "As a freelance developer, I've created this website using next, Node, mongoDB, and Tailwind. Still on development phase.",
+    tags: [
+      {
+        name: "Next",
+        color: "text-teal-500",
+      },
+      {
+        name: "MongoDB",
+        color: "text-indigo-600",
+      },
+      {
+        name: "Node",
+        color: "text-pink-500",
+      },
+      {
+        name: "CI/CD",
+        color: "text-sky-500",
+      },
+    ],
+    image:
+      "https://res.cloudinary.com/ddtzqpngv/image/upload/v1704159673/portfolio/i5knjvucgq35oc3exdf7.png",
+    source_code_link: "https://dev.yetitech.com.au",
   },
   {
     name: "NuovaGen",
@@ -232,9 +284,9 @@ const projects = [
         color: "text-sky-500",
       },
     ],
-    image: nuovagen,
+    image:
+      "https://res.cloudinary.com/ddtzqpngv/image/upload/v1704159673/portfolio/umtoijsd9geqx9srcxeu.png",
     source_code_link: "https://nuovagen.com.au",
-    icon: webs,
   },
   {
     name: "Real Estate App",
@@ -258,58 +310,15 @@ const projects = [
         color: "text-sky-500",
       },
     ],
-    image: realestate,
-    source_code_link: "https://github.com/sudipkhatri/mernProject",
-    icon: github,
+    image:
+      "https://res.cloudinary.com/ddtzqpngv/image/upload/v1704159670/portfolio/vwm2xexmyckv1dshnxoa.png",
+    source_code_link: "https://app.khatrisudip.com",
   },
+
   {
-    name: "Tictac Game",
+    name: "Hotel Booking App",
     description:
-      "A simple tictac game build using react, bootstrap and implementing logic to declare winner.",
-    tags: [
-      {
-        name: "react",
-        color: "text-teal-500",
-      },
-      {
-        name: "Javascript",
-        color: "text-indigo-600",
-      },
-      {
-        name: "Bootstrap",
-        color: "text-pink-500",
-      },
-    ],
-    image: tictac,
-    source_code_link: "https://sudipkhatri.github.io/tictac/",
-    icon: webs,
-  },
-  {
-    name: "Weather API",
-    description:
-      "A simple, clean, & Weather prediction using api integration from third party API (weathermapsAPI), react and custom css.",
-    tags: [
-      {
-        name: "React JS",
-        color: "text-teal-500",
-      },
-      {
-        name: "API integration",
-        color: "text-indigo-600",
-      },
-      {
-        name: "css",
-        color: "text-pink-500",
-      },
-    ],
-    image: weatherapi,
-    source_code_link: "https://sudipkhatri.github.io/weatherApp_v1/",
-    icon: webs,
-  },
-  {
-    name: "Blog App",
-    description:
-      "A complete full stack web application that is based on CRUD principle where users can create, read, update and delete their posts.",
+      "A complete full stack hotel booking application made with TypeScript, React, Node JS, Express JS, Payment integration with stripe and much more.",
     tags: [
       {
         name: "react",
@@ -320,14 +329,19 @@ const projects = [
         color: "text-indigo-600",
       },
       {
-        name: "Material UI",
+        name: "TypeScript",
         color: "text-pink-500",
       },
+      {
+        name: "CI/CD",
+        color: "text-sky-500",
+      },
     ],
-    image: mernBlogApp,
-    source_code_link: "https://github.com/sudipkhatri/MernBlogAppv1.0.0",
-    icon: github,
+    image:
+      "https://res.cloudinary.com/ddtzqpngv/image/upload/v1704766766/Hotelapp_de4imd.png",
+    source_code_link: "https://hotel-app-4agc.onrender.com",
   },
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };

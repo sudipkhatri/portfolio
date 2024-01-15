@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { textVariant } from "../utils/motion";
 
 const Hero = () => {
   return (
@@ -18,7 +17,8 @@ const Hero = () => {
             {/* circle and line ends */}
           </div>
           <motion.div
-            variants={textVariant()}
+            animate={{ x: 10 }}
+            transition={{ type: "spring", stiffness: 100 }}
             className={`${styles.heroHeadText}`}
           >
             <h1 className="text-white">
@@ -36,7 +36,7 @@ const Hero = () => {
       </div>
 
       <div
-        className="absolute bottom-10
+        className="absolute bottom-[20px]
       bottom-32 w-full flex justify-center items-center"
       >
         <a href="#about">

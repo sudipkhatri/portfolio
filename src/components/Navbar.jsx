@@ -27,7 +27,7 @@ const Navbar = () => {
           <img src={logo} alt="logo" className='w-9 h-9 object-contain rounded-full'  />
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>
             Sudip &nbsp;
-            <span className='sm:block hidden'> | Portfolio </span>
+            <span className='md:block hidden'> | Portfolio </span>
           </p>
         </Link>
         <ul className='list-none hidden sm:flex 

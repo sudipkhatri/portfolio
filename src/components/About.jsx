@@ -41,7 +41,7 @@ const About = () => {
         variants={fadeIn("up", "", 0.1, 1)}
         className="mt-4 text-black text-[17px] max-w-3xl leading-[30px]"
       >
-        As an experienced software engineer, my expertise lies in TypeScript and
+        As an experienced software engineer, my expertise lies in Tailwind and
         JavaScript, with a strong focus on frameworks such as React, Node.js,
         and Express.js. My ability to rapidly assimilate new knowledge, combined
         with a dedication to developing practical and scalable solutions,
